@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1200" height="675" fill="#161616"/>
+  <text x="600" y="60" fill="#ff8c42" font-size="40" font-weight="700" text-anchor="middle" direction="rtl">اِقرَئي اللَّهَب</text>
+
+  <line x1="600" y1="110" x2="600" y2="520" stroke="#333" stroke-width="2"/>
+
+  <!-- ===== RIGHT (read first): GOOD ===== -->
+  <g transform="translate(850,400)">
+    <!-- clean flame -->
+    <path d="M0,0 C30,-30 20,-95 0,-150 C-20,-95 -30,-30 0,0 Z" fill="#ff8c2b"/>
+    <path d="M0,-4 C18,-30 12,-80 0,-120 C-12,-80 -18,-30 0,-4 Z" fill="#ffd23b"/>
+    <path d="M0,2 C16,-12 14,-40 0,-62 C-14,-40 -16,-12 0,2 Z" fill="#5ab0ff"/>
+    <!-- green check -->
+    <circle cx="0" cy="-205" r="30" fill="none" stroke="#6ddf6d" stroke-width="5"/>
+    <path d="M-13,-205 L-4,-194 L15,-217" fill="none" stroke="#6ddf6d" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="0" y="60" fill="#6ddf6d" font-size="30" font-weight="700" text-anchor="middle" direction="rtl">لَهَبٌ صافٍ</text>
+    <text x="0" y="98" fill="#6ddf6d" font-size="30" font-weight="700" text-anchor="middle" direction="rtl">يَميلُ لِلزُّرقة — جَيِّد</text>
+  </g>
+
+  <!-- ===== LEFT: BAD ===== -->
+  <g transform="translate(350,400)">
+    <!-- smoky flame -->
+    <circle cx="-6" cy="-150" r="30" fill="#4a4a4a" opacity="0.8"/>
+    <circle cx="12" cy="-190" r="38" fill="#383838" opacity="0.85"/>
+    <circle cx="-14" cy="-232" r="44" fill="#2a2a2a" opacity="0.9"/>
+    <path d="M0,0 C22,-18 15,-52 0,-82 C-15,-52 -22,-18 0,0 Z" fill="#d8642b"/>
+    <!-- red X -->
+    <circle cx="0" cy="-205" r="30" fill="none" stroke="#ff6b6b" stroke-width="5"/>
+    <path d="M-13,-218 L13,-192 M13,-218 L-13,-192" stroke="#ff6b6b" stroke-width="6" stroke-linecap="round"/>
+    <text x="0" y="60" fill="#ff6b6b" font-size="30" font-weight="700" text-anchor="middle" direction="rtl">دُخانٌ أسوَد</text>
+    <text x="0" y="98" fill="#ff6b6b" font-size="26" text-anchor="middle" direction="rtl">أطعِميها أقَلّ، وافتَحي الهَواء</text>
+  </g>
+
+  <!-- bottom rule -->
+  <rect x="190" y="560" width="820" height="78" rx="14" fill="#241c14" stroke="#ffd54f" stroke-width="2"/>
+  <text x="600" y="592" fill="#ffd54f" font-size="27" font-weight="700" text-anchor="middle" direction="rtl">أطعِميها قِطَعًا صَغيرةً بِبُطء،</text>
+  <text x="600" y="624" fill="#ffd54f" font-size="27" font-weight="700" text-anchor="middle" direction="rtl">لا دُفعةً واحِدة</text>
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1200" height="675" fill="#161616"/>
+  <text x="600" y="48" fill="#ff8c42" font-size="36" font-weight="700" text-anchor="middle" direction="rtl">المَوقِدُ النَّظيف — مَقطَعٌ مِنَ الدّاخِل</text>
+
+  <!-- chimney -->
+  <path d="M600,320 L628,300" fill="none" stroke="#9a9a9a" stroke-width="5"/>
+  <line x1="628" y1="300" x2="628" y2="105" stroke="#9a9a9a" stroke-width="5"/>
+  <line x1="683" y1="305" x2="683" y2="105" stroke="#9a9a9a" stroke-width="5"/>
+  <!-- smoke up the chimney -->
+  <circle cx="655" cy="95" r="13" fill="#666" opacity="0.4"/>
+  <circle cx="648" cy="68" r="16" fill="#666" opacity="0.3"/>
+  <circle cx="660" cy="40" r="19" fill="#666" opacity="0.22"/>
+  <path d="M655,150 L655,118" stroke="#6ddf6d" stroke-width="4" fill="none"/>
+  <path d="M655,108 L646,126 L664,126 Z" fill="#6ddf6d"/>
+
+  <!-- outer can (U, cross-section) -->
+  <path d="M340,330 L340,580 L600,580 L600,330" fill="none" stroke="#9a9a9a" stroke-width="6"/>
+  <!-- inner can / fuel chamber (U) -->
+  <path d="M385,355 L385,560 L555,560 L555,355" fill="none" stroke="#c59b6a" stroke-width="5"/>
+
+  <!-- char wick bed -->
+  <rect x="385" y="513" width="170" height="47" fill="#2e2620"/>
+  <g fill="#5a4a36">
+    <circle cx="410" cy="530" r="5"/><circle cx="445" cy="540" r="6"/><circle cx="478" cy="525" r="5"/>
+    <circle cx="505" cy="542" r="5"/><circle cx="535" cy="528" r="6"/><circle cx="425" cy="552" r="4"/>
+    <circle cx="495" cy="552" r="4"/><circle cx="460" cy="520" r="4"/>
+  </g>
+
+  <!-- clean flame in the throat -->
+  <path d="M470,513 C500,470 488,410 470,350 C452,410 440,470 470,513 Z" fill="#ff8c2b"/>
+  <path d="M470,510 C490,470 482,420 470,372 C458,420 450,470 470,510 Z" fill="#ffd23b"/>
+  <path d="M470,512 C483,488 481,455 470,430 C459,455 457,488 470,512 Z" fill="#5ab0ff"/>
+
+  <!-- cooking pan on top -->
+  <ellipse cx="470" cy="332" rx="120" ry="15" fill="#6f6f6f"/>
+  <ellipse cx="470" cy="328" rx="120" ry="12" fill="#8a8a8a"/>
+
+  <!-- air arrows (blue) -->
+  <g stroke="#5ab0ff" stroke-width="4.5" fill="none" stroke-linecap="round">
+    <!-- intake -->
+    <line x1="278" y1="572" x2="333" y2="572"/>
+    <!-- primary up through bed -->
+    <line x1="415" y1="585" x2="415" y2="520"/>
+    <line x1="470" y1="595" x2="470" y2="520"/>
+    <line x1="525" y1="585" x2="525" y2="520"/>
+    <!-- gap preheat -->
+    <line x1="362" y1="555" x2="362" y2="372"/>
+    <line x1="578" y1="555" x2="578" y2="372"/>
+  </g>
+  <g fill="#5ab0ff">
+    <path d="M333,572 L319,564 L319,580 Z"/>
+    <path d="M415,520 L408,534 L422,534 Z"/>
+    <path d="M470,520 L463,534 L477,534 Z"/>
+    <path d="M525,520 L518,534 L532,534 Z"/>
+    <path d="M362,372 L355,386 L369,386 Z"/>
+    <path d="M578,372 L571,386 L585,386 Z"/>
+  </g>
+  <!-- secondary ring jets inward -->
+  <g stroke="#5ab0ff" stroke-width="4.5" fill="none" stroke-linecap="round">
+    <line x1="386" y1="362" x2="420" y2="376"/>
+    <line x1="554" y1="362" x2="520" y2="376"/>
+  </g>
+  <g fill="#5ab0ff">
+    <path d="M420,376 L406,372 L412,386 Z"/>
+    <path d="M520,376 L534,372 L528,386 Z"/>
+  </g>
+
+  <!-- ===== labels ===== -->
+  <g stroke="#555" stroke-width="1.5">
+    <line x1="300" y1="535" x2="384" y2="535"/>
+    <line x1="300" y1="420" x2="361" y2="420"/>
+    <line x1="305" y1="312" x2="432" y2="372"/>
+    <line x1="470" y1="640" x2="470" y2="600"/>
+    <line x1="760" y1="210" x2="684" y2="200"/>
+    <line x1="600" y1="300" x2="640" y2="300"/>
+  </g>
+
+  <text x="160" y="528" fill="#c59b6a" font-size="24" font-weight="700" text-anchor="middle" direction="rtl">فِراشُ الفَحم</text>
+  <text x="160" y="556" fill="#9a9a9a" font-size="20" text-anchor="middle" direction="rtl">يَمتَصُّ المُذابَ فَلا يَسيل</text>
+
+  <text x="175" y="414" fill="#5ab0ff" font-size="21" text-anchor="middle" direction="rtl">الهَواءُ يَسخَنُ</text>
+  <text x="175" y="440" fill="#5ab0ff" font-size="21" text-anchor="middle" direction="rtl">بَينَ العُلبَتَيْن</text>
+
+  <text x="180" y="296" fill="#ffd54f" font-size="23" font-weight="700" text-anchor="middle" direction="rtl">حَلْقةُ هَواءٍ ساخِن</text>
+  <text x="180" y="322" fill="#ffd54f" font-size="23" font-weight="700" text-anchor="middle" direction="rtl">تَحرِقُ الدُّخان</text>
+
+  <text x="470" y="662" fill="#5ab0ff" font-size="22" text-anchor="middle" direction="rtl">هَواءٌ أساسِيٌّ مِنْ أسفَل</text>
+
+  <text x="960" y="190" fill="#6ddf6d" font-size="28" font-weight="700" text-anchor="middle" direction="rtl">المَدخَنة</text>
+  <text x="960" y="224" fill="#cfcfcf" font-size="22" text-anchor="middle" direction="rtl">تَرفَعُ الدُّخانَ عاليًا،</text>
+  <text x="960" y="252" fill="#cfcfcf" font-size="22" text-anchor="middle" direction="rtl">بَعيدًا عَنْ وَجهِكِ،</text>
+  <text x="960" y="280" fill="#cfcfcf" font-size="22" text-anchor="middle" direction="rtl">وتَسحَبُ الهَواءَ لِلنّار</text>
+
+  <text x="470" y="300" fill="#cfcfcf" font-size="21" text-anchor="middle" direction="rtl">القِدرُ فَوقَ اللَّهَب</text>
+</svg>

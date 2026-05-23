@@ -1,0 +1,141 @@
+{
+  "cues": [
+    {
+      "type": "image",
+      "time": 0.1,
+      "image": "photos/lamar-situation-fire-saj.png",
+      "caption": "Lamar's cooking fire — flatbread on a saj over burning plastic",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 25.438,
+      "image": "photos/black-smoke-fire.jpg",
+      "caption": "Black smoke = incomplete burning — soot and poisons",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 41.325,
+      "image": "photos/diagram-two-enemies-ar.svg",
+      "caption": "Two enemies: the wrong plastic, and an air-starved flame",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 73.2,
+      "image": "photos/pe-plastic-bags.jpg",
+      "caption": "Polyethylene bags and film — the \"candle-like\", safer plastic",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 90.912,
+      "image": "photos/hdpe-jerrycan.jpg",
+      "caption": "HDPE jerrycans — same safer plastic family",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 102.375,
+      "image": "photos/pvc-pipes.jpg",
+      "caption": "PVC pipes — contain chlorine; never burn",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 126.562,
+      "image": "photos/diagram-field-tests-ar.svg",
+      "caption": "Three field tests: smell, flame-and-drip, float",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 182.171,
+      "image": "photos/candle-flame.jpg",
+      "caption": "A candle burns clean — wax turns to vapour and meets enough air",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 210.895,
+      "image": "photos/stove-real-1.jpg",
+      "caption": "A real rocket stove built from scrap metal — fuel mouth, air pipe, vertical riser",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 233.245,
+      "image": "photos/diagram-rocket-stove-ar.svg",
+      "caption": "Rocket stove cross-section — fuel mouth, air under the fuel, insulated riser, pot on top",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 261.771,
+      "image": "photos/stove-real-3.jpg",
+      "caption": "The same idea built from bricks — like the clay ovens already used in Gaza",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 299.533,
+      "image": "photos/diagram-read-flame-ar.svg",
+      "caption": "Read the flame — clear/blue is good, black smoke means feed less / more air",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "image",
+      "time": 317.932,
+      "image": "photos/diagram-safety-position-ar.svg",
+      "caption": "Safety — wind at your back, smoke away from mom, away from tents, water ready",
+      "rotation": 0,
+      "explicit": true
+    },
+    {
+      "type": "overlay",
+      "time": 354.782,
+      "title": "تَذَكَّري",
+      "lines": [
+        "اِختاري البَلاستيكَ الَّذِي يَحتَرِقُ كَالشَّمعة",
+        "تَجَنَّبي الكلورَ تَمامًا",
+        "مَوقِدٌ حارّ، وإطعامٌ قَليل",
+        "وأبعِدي الدُّخانَ عَنْ وَجهِكِ ووَجهِ أُمِّكِ"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "time": 22.975,
+      "level": 2,
+      "title": "١ — عَدُوّانْ"
+    },
+    {
+      "time": 66.15,
+      "level": 2,
+      "title": "٢ — أيُّ بَلاستيكٍ نَحرِقْ"
+    },
+    {
+      "time": 178.708,
+      "level": 2,
+      "title": "٣ — كَيْفَ نَحرِقُهُ نَظيفًا"
+    },
+    {
+      "time": 352.307,
+      "level": 2,
+      "title": "٤ — في الخِتامْ"
+    }
+  ]
+}

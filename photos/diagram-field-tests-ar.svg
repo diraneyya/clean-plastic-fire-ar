@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1200" height="675" fill="#161616"/>
+  <text x="600" y="58" fill="#5ab0ff" font-size="38" font-weight="700" text-anchor="middle" direction="rtl">ثَلاثُ فُحوصاتٍ تَعرِفينَ بِها البَلاستيك</text>
+
+  <line x1="400" y1="100" x2="400" y2="560" stroke="#2c2c2c" stroke-width="2"/>
+  <line x1="800" y1="100" x2="800" y2="560" stroke="#2c2c2c" stroke-width="2"/>
+
+  <!-- ===== COL 1 (right): SMELL ===== -->
+  <g transform="translate(1000,0)">
+    <text x="0" y="150" fill="#ffd54f" font-size="30" font-weight="700" text-anchor="middle" direction="rtl">١ — الرّائِحة</text>
+    <!-- nose + flame icon -->
+    <path d="M0,210 C18,196 30,206 30,228 C30,244 18,250 8,250" fill="none" stroke="#cfcfcf" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-40,250 C-30,238 -34,220 -40,206 C-46,220 -50,238 -40,250 Z" fill="#ff8c2b"/>
+    <text x="0" y="330" fill="#6ddf6d" font-size="25" font-weight="700" text-anchor="middle" direction="rtl">رائِحةُ شَمعٍ</text>
+    <text x="0" y="364" fill="#6ddf6d" font-size="25" text-anchor="middle" direction="rtl">← آمِن</text>
+    <text x="0" y="440" fill="#ff6b6b" font-size="25" font-weight="700" text-anchor="middle" direction="rtl">رائِحةٌ حادّةٌ</text>
+    <text x="0" y="474" fill="#ff6b6b" font-size="25" text-anchor="middle" direction="rtl">كَالكلور ← تَوَقَّفي</text>
+  </g>
+
+  <!-- ===== COL 2 (middle): FLAME + DRIP ===== -->
+  <g transform="translate(600,0)">
+    <text x="0" y="150" fill="#ffd54f" font-size="30" font-weight="700" text-anchor="middle" direction="rtl">٢ — اللَّهَبُ والقَطْر</text>
+    <!-- flame with drips -->
+    <path d="M0,200 C16,186 11,166 0,148 C-11,166 -16,186 0,200 Z" fill="#ff8c2b"/>
+    <circle cx="-4" cy="235" r="6" fill="#ffb74d"/>
+    <circle cx="6" cy="262" r="5" fill="#ffb74d"/>
+    <circle cx="-2" cy="285" r="4" fill="#ffb74d"/>
+    <text x="0" y="330" fill="#6ddf6d" font-size="25" font-weight="700" text-anchor="middle" direction="rtl">يَذوبُ ويَقطُر</text>
+    <text x="0" y="364" fill="#6ddf6d" font-size="25" text-anchor="middle" direction="rtl">والقَطرُ يَشتَعِل ← آمِن</text>
+    <text x="0" y="440" fill="#ff6b6b" font-size="25" font-weight="700" text-anchor="middle" direction="rtl">يَصعُبُ اشتِعالُه،</text>
+    <text x="0" y="474" fill="#ff6b6b" font-size="25" text-anchor="middle" direction="rtl">لَهَبٌ أخضَر ← خَطَر</text>
+  </g>
+
+  <!-- ===== COL 3 (left): FLOAT ===== -->
+  <g transform="translate(200,0)">
+    <text x="0" y="150" fill="#ffd54f" font-size="30" font-weight="700" text-anchor="middle" direction="rtl">٣ — الطَّفْوُ في الماء</text>
+    <!-- glass of water -->
+    <path d="M-55,190 L55,190 L46,300 L-46,300 Z" fill="none" stroke="#cfcfcf" stroke-width="4"/>
+    <path d="M-50,225 L50,225 L46,300 L-46,300 Z" fill="#3a6ea5" opacity="0.5"/>
+    <!-- floating piece -->
+    <rect x="-14" y="214" width="28" height="12" rx="3" fill="#6ddf6d"/>
+    <!-- sinking piece -->
+    <rect x="6" y="282" width="22" height="10" rx="3" fill="#ff6b6b"/>
+    <text x="0" y="330" fill="#6ddf6d" font-size="25" font-weight="700" text-anchor="middle" direction="rtl">يَطفو ← آمِن</text>
+    <text x="0" y="404" fill="#ff6b6b" font-size="25" font-weight="700" text-anchor="middle" direction="rtl">يَغرَقُ ← خَطَر</text>
+  </g>
+
+  <!-- bottom rule -->
+  <rect x="250" y="592" width="700" height="58" rx="14" fill="#241c14" stroke="#ffd54f" stroke-width="2"/>
+  <text x="600" y="630" fill="#ffd54f" font-size="29" font-weight="700" text-anchor="middle" direction="rtl">إذا شَكَكْتِ، لا تَحرِقيه</text>
+</svg>

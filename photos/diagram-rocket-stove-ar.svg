@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1200" height="675" fill="#161616"/>
+  <text x="600" y="46" fill="#ff8c42" font-size="34" font-weight="700" text-anchor="middle" direction="rtl">مَوقِدٌ مِنْ عُلَب — مَقطَعٌ مِنَ الدّاخِل</text>
+
+  <!-- outer body (drum / big can) -->
+  <rect x="430" y="235" width="330" height="325" rx="10" fill="#211f1d" stroke="#9a9a9a" stroke-width="6"/>
+
+  <!-- sand/ash insulation fill (stipple) -->
+  <g fill="#6a5a3e" opacity="0.55">
+    <circle cx="470" cy="300" r="4"/><circle cx="500" cy="340" r="4"/><circle cx="465" cy="380" r="4"/><circle cx="500" cy="420" r="4"/>
+    <circle cx="470" cy="470" r="4"/><circle cx="505" cy="510" r="4"/><circle cx="468" cy="540" r="4"/><circle cx="540" cy="300" r="4"/>
+    <circle cx="700" cy="300" r="4"/><circle cx="725" cy="350" r="4"/><circle cx="700" cy="400" r="4"/><circle cx="728" cy="450" r="4"/>
+    <circle cx="700" cy="500" r="4"/><circle cx="725" cy="540" r="4"/><circle cx="690" cy="540" r="4"/><circle cx="560" cy="300" r="4"/>
+  </g>
+
+  <!-- L-tube: horizontal feed arm + vertical riser (open path drawn as walls) -->
+  <!-- riser walls -->
+  <line x1="600" y1="255" x2="600" y2="470" stroke="#c59b6a" stroke-width="5"/>
+  <line x1="680" y1="255" x2="680" y2="430" stroke="#c59b6a" stroke-width="5"/>
+  <!-- horizontal arm walls (from fuel mouth at left, through body wall, to riser) -->
+  <line x1="350" y1="410" x2="600" y2="410" stroke="#c59b6a" stroke-width="5"/>
+  <line x1="350" y1="470" x2="600" y2="470" stroke="#c59b6a" stroke-width="5"/>
+  <!-- fuel mouth opening (protrudes left of body) -->
+  <line x1="350" y1="410" x2="350" y2="470" stroke="#c59b6a" stroke-width="5"/>
+
+  <!-- fuel shelf inside the arm -->
+  <line x1="370" y1="445" x2="600" y2="445" stroke="#8a8a8a" stroke-width="3" stroke-dasharray="7 5"/>
+  <!-- fuel on the shelf (plastic + paper) -->
+  <rect x="395" y="430" width="40" height="14" rx="3" fill="#7fae7f"/>
+  <rect x="450" y="431" width="48" height="13" rx="3" fill="#b08a5a"/>
+  <rect x="515" y="430" width="40" height="14" rx="3" fill="#7fae7f"/>
+
+  <!-- clean flame up the riser -->
+  <path d="M640,460 C665,415 655,350 640,300 C625,350 615,415 640,460 Z" fill="#ff8c2b"/>
+  <path d="M640,458 C657,415 650,360 640,318 C630,360 623,415 640,458 Z" fill="#ffd23b"/>
+  <path d="M640,460 C652,435 650,400 640,372 C630,400 628,435 640,460 Z" fill="#5ab0ff"/>
+
+  <!-- pot / saj on top of the riser -->
+  <rect x="612" y="246" width="8" height="10" fill="#8a8a8a"/>
+  <rect x="660" y="246" width="8" height="10" fill="#8a8a8a"/>
+  <ellipse cx="640" cy="236" rx="135" ry="16" fill="#6f6f6f"/>
+  <ellipse cx="640" cy="232" rx="135" ry="12" fill="#8a8a8a"/>
+
+  <!-- air arrow into the fuel mouth, under the shelf -->
+  <line x1="285" y1="458" x2="346" y2="458" stroke="#5ab0ff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M346,458 L330,449 L330,467 Z" fill="#5ab0ff"/>
+
+  <!-- ===== leader lines ===== -->
+  <g stroke="#555" stroke-width="1.5">
+    <line x1="300" y1="395" x2="360" y2="412"/>
+    <line x1="300" y1="432" x2="392" y2="437"/>
+    <line x1="965" y1="320" x2="682" y2="340"/>
+    <line x1="965" y1="500" x2="730" y2="470"/>
+    <line x1="640" y1="200" x2="640" y2="222"/>
+  </g>
+
+  <!-- ===== labels ===== -->
+  <text x="200" y="388" fill="#c59b6a" font-size="23" font-weight="700" text-anchor="middle" direction="rtl">فُوَّهةُ الوُقود</text>
+  <text x="195" y="430" fill="#cfcfcf" font-size="20" text-anchor="middle" direction="rtl">البَلاستيكُ معَ الوَرَقِ هُنا</text>
+  <text x="180" y="470" fill="#5ab0ff" font-size="21" text-anchor="middle" direction="rtl">هَواءٌ مِنْ تَحتِ الوُقود</text>
+
+  <text x="980" y="300" fill="#ffd54f" font-size="24" font-weight="700" text-anchor="middle" direction="rtl">أُنبوبٌ قائِمٌ مَعزول</text>
+  <text x="980" y="332" fill="#cfcfcf" font-size="20" text-anchor="middle" direction="rtl">يَحرِقُ الدُّخان،</text>
+  <text x="980" y="360" fill="#cfcfcf" font-size="20" text-anchor="middle" direction="rtl">نارٌ حارّةٌ نَظيفة</text>
+
+  <text x="975" y="495" fill="#c59b6a" font-size="22" font-weight="700" text-anchor="middle" direction="rtl">رَمل أو رَماد</text>
+  <text x="975" y="523" fill="#9a9a9a" font-size="20" text-anchor="middle" direction="rtl">للعَزلِ والحَرارة</text>
+
+  <text x="640" y="192" fill="#cfcfcf" font-size="22" text-anchor="middle" direction="rtl">القِدرُ أوِ الصّاجُ فَوق</text>
+</svg>
